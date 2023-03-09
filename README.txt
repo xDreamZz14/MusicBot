@@ -1,0 +1,1 @@
+Discord music bot using nextcord and nextwave libraries (Work in development)
