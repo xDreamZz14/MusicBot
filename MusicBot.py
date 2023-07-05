@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix = "!", intents=intents)
 @bot.event
 async def on_ready():
     """
-    Permite que el bot pueda conectarse al servidor
+    Llama a la funcion para que el bot pueda conectarse al servidor
     El print muestra en la consola si se ha conectado sin problemas
     """
     print(f'{bot.user} has connected to Discord!')
